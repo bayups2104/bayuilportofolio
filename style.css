@@ -1,0 +1,27 @@
+/* style.css */
+body {
+    font-family:Roboto, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+}
+
+header {text-align: center;}
+
+nav ul {
+    list-style-type: none; /* Menghilangkan bullet point pada list */
+    background-color: yellow;
+    display: flex; /* Mengatur elemen list menjadi inline */
+    justify-content: center; /* Menempatkan item list di tengah */
+  }
+  
+  nav li {
+    margin: 0 10px; /* Memberikan margin pada setiap item */
+  }
+  
+  nav a {
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+    color: #333; /* Mengatur warna teks link */
+    padding: 10px 15px; /* Memberikan padding pada link */
+    border-radius: 5px; /* Membuat sudut link menjadi rounded */
+  }
